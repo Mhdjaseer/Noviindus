@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% block title %}
+    db list
+{% endblock title %}
+
+{% block content %}
+    
+
+
+
+<div class="container">
+    <h2>
+        <a href=" {% url 'novi:create_items' %} ">
+        <button type="button" class="btn btn-success">Add New Item</button>
+    </a>
+    </h2>
+    <p>Page for add new item, update ,list, and delete:</p>            
+    <table class="table table-hover table-bordered">
+      <thead>
+        <tr>
+          <th>No.Item</th>
+          <th>Title</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for i  in items %}
+        <tr>
+            <td>{{forloop.counter}}</td>
+            <td>{{i.title}}</td>
+            <td>
+                <a href=" {% url 'novi:update' i.id %} ">
+                <button type="button" class="btn btn-warning"><i class="fa-solid fa-pen-to-square"></i></button>
+            </a>
+            <a href="{% url 'novi:Item_delete' i.id %}">
+                <button type="button" class="btn btn-danger">
+                    <i class="fa-solid fa-trash"></i>
+                </button>
+            </a>
+                
+            </td>
+          </tr>
+          
+        {% endfor %}
+        
+      </tbody>
+    </table>
+  </div>
+  
+
+{% endblock content %}

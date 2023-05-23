@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block title %}
+    create new item
+{% endblock title %}
+
+{% block content %}
+<div class="container">
+<h4>Add new items</h4>
+<h5>
+    <a href=" {% url 'novi:db-list' %} ">
+    <button type="button" class="btn btn-info text-white">back</button>
+</a>
+</h5>
+<form action="" method="post"  enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit" class="btn btn-success">Submit</button>
+
+</form>
+</div>
+    
+{% endblock content %}
+
+
