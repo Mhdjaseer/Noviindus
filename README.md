@@ -35,7 +35,7 @@ these are the paths  in this project:
         register:..
             ![image](https://github.com/Mhdjaseer/Noviindus/assets/98450786/198df9ac-6204-4afc-af65-998e0bcb1715)
 
-    HOME PAGE:>
+HOME PAGE:>
     ![image](https://github.com/Mhdjaseer/Noviindus/assets/98450786/503486ca-a701-48a8-87bf-db4ba50d0da7)
     CART PAGE :>
     ![image](https://github.com/Mhdjaseer/Noviindus/assets/98450786/5134483d-f80a-419b-b828-120f74e2ca1a)
@@ -43,7 +43,6 @@ these are the paths  in this project:
         DELETE FUNCTIONALITY IS AVAILBLE ON THE SAME PAGE :--
     ![image](https://github.com/Mhdjaseer/Noviindus/assets/98450786/a4ef5d82-cc6f-4540-9686-32a689001358)
         ADD ITEM TO DB:>//
-            
             ![image](https://github.com/Mhdjaseer/Noviindus/assets/98450786/74952e49-2665-41c7-8e0a-8b9d9a6fe962)
         UPDATE ITEM :>//
             ![image](https://github.com/Mhdjaseer/Noviindus/assets/98450786/42947610-c1dc-4dd2-8980-634e725a938e)
