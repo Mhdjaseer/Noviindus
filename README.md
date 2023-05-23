@@ -30,7 +30,7 @@ these are the paths  in this project:
     
     LOGIN AND REGISTRATION PAGE:>//
         login>>
-        ![image](https://github.com/Mhdjaseer/Noviindus/assets/98450786/74979c1c-f744-49de-b4d2-db48c8a194b1)
+        ![image](https://github.com/Mhdjaseer/Noviindus/assets/98450786/d3f0476f-997b-4772-bfc3-6f28e541721e)
         register:..
             ![image](https://github.com/Mhdjaseer/Noviindus/assets/98450786/198df9ac-6204-4afc-af65-998e0bcb1715)
 
