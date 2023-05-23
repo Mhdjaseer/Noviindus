@@ -28,7 +28,8 @@ these are the paths  in this project:
     path('item/db/<pk>/update',views.ItemUpdateView.as_view(),name='update'),
     path('item/db/<int:id>/delete/',views.deleteItemView,name='Item_delete')
     
-    LOGIN AND REGISTRATION PAGE:>//
+    
+  LOGIN AND REGISTRATION PAGE:>//
         login>>
         ![image](https://github.com/Mhdjaseer/Noviindus/assets/98450786/d3f0476f-997b-4772-bfc3-6f28e541721e)
         register:..
